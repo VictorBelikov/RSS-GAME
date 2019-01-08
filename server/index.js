@@ -23,11 +23,13 @@ const IMG_PATH = path.resolve(__dirname, '../dist/img');
 const VIEWS_PATH = path.resolve(__dirname, '../dist');
 const STATIC_PATH = path.resolve(__dirname, '../dist/js');
 const AUDIO_PATH = path.resolve(__dirname, '../dist/audio');
+const LIBS_PATH = path.resolve(__dirname, '../dist/libs');
 
 const app = express();
 app.use('/js', express.static(STATIC_PATH));
 app.use('/img', express.static(IMG_PATH));
 app.use('/audio', express.static(AUDIO_PATH));
+app.use('/libs', express.static(LIBS_PATH));
 
 app.engine('html', ejs.renderFile);
 app.set('views', VIEWS_PATH);
