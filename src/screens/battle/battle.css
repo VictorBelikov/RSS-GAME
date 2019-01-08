@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Charm" rel="stylesheet');
+
+body {
+  background: url("../../assets/images/battlescene/background3.png");
+  font-family: 'Charm', cursive;
+}
+
+.display-off {
+  display: none;
+}
+
+.fade-bg {
+  position: fixed;
+  z-index: -1;
+  background-color: rgba(0, 0, 0, .6);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.canvas_wrapper {
+  margin: 70px auto 0;
+  width: 1300px;
+  height: 600px;
+}
+
+.game-info {
+  color: #ffffff;
+  width: 90%;
+  min-width: 800px;
+  margin: 30px auto 0;
+}
+
+.spell-book {
+  transition: transform 0.5s;
+  margin-top: 20px;
+  cursor: pointer;
+  min-width: 200px;
+  height: 160px;
+  background: url("../../assets/images/battlescene/spell-book.png") 100% 100% no-repeat;
+  background-size: cover;
+}
+
+.spell-book:hover {
+  transform: scale(1.2);
+}
+
+.hero-level {
+  font-size: 2em;
+}
+
+.hero-level__value {
+  font-weight: bold;
+  color: yellow;
+}

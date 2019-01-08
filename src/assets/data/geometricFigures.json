@@ -1,0 +1,42 @@
+[
+  {
+    "name": "triangle",
+    "sides": 3
+  },
+  {
+    "name": "square",
+    "sides": 4
+  },
+  {
+    "name": "rectangle",
+    "sides": 4
+  },
+  {
+    "name": "trapezoid",
+    "sides": 4
+  },
+  {
+    "name": "parallelogram",
+    "sides": 4
+  },
+  {
+    "name": "pentagon",
+    "sides": 5
+  },
+  {
+    "name": "hexagon",
+    "sides": 6
+  },
+  {
+    "name": "octagon",
+    "sides": 8
+  },
+  {
+    "name": "circle",
+    "sides": 0
+  },
+  {
+    "name": "oval",
+    "sides": 0
+  }
+]

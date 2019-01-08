@@ -1,0 +1,233 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css?family=Charm" rel="stylesheet');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Charm', cursive;
+  color: #222;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+// Navbar
+.navbar {
+  padding: .8rem;
+}
+
+.navbar-nav li {
+  padding-right: 100px;
+}
+
+.navbar-nav {
+  margin: auto;
+}
+
+.nav-link {
+  font-size: 1.1em !important;
+}
+
+// About Game
+#home {
+  background: url("../assets/images/Landing/knight-ln.jpg") no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  -webkit-background-size: cover;
+  background-size: cover;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+#home .btn {
+  margin-top: 100px;
+  padding: 20px 50px;
+  transition: transform 0.3s;
+}
+
+#home .btn:hover {
+  transform: scale(1.1);
+}
+
+.description-keyboard {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.landing-text {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+}
+
+.landing-text h1 {
+  font-size: 500%;
+  font-weight: 700;
+}
+
+.welcome {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+
+.welcome hr {
+  border-top: 2px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.about-game {
+  color: white;
+  min-height: 100%;
+  background: url("../assets/images/Landing/orc-ln.jpg") no-repeat center center fixed;
+
+}
+
+.description-wrapper {
+  font-size: 130%;
+  display: flex;
+  justify-content: center;
+}
+
+.description {
+  max-width: 500px;
+}
+
+// Image Slider
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-caption h1 {
+  font-size: 500%;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.carousel-caption h3 {
+  font-size: 200%;
+  font-weight: 500;
+  text-shadow: 1px 1px 10px #000;
+  padding-bottom: 1rem;
+}
+
+// Social section
+.social {
+  padding-top: 20rem;
+}
+
+.social a {
+  font-size: 10em;
+  padding: 3rem;
+}
+
+#author {
+  min-height: 100%;
+}
+
+.fa-vk {
+  color: #3b5998;
+}
+
+.fa-twitter {
+  color: #00aced;
+}
+
+.fa-youtube {
+  color: #bb0000;
+}
+
+.fa-github {
+  color: #000000;
+}
+
+.fa-instagram {
+  color: #517fa8;
+}
+
+.fa-vk:hover,
+.fa-twitter:hover,
+.fa-youtube:hover,
+.fa-github:hover,
+.fa-instagram:hover {
+  color: #d5d5d5;
+}
+
+@media (max-width: 992px) {
+  .social a {
+    font-size: 4em;
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .landing-text h1 {
+    font-size: 300%;
+  }
+
+  .carousel-caption {
+    top: 45%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 350%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 140%;
+    font-weight: 400;
+    padding-bottom: .2rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 95%;
+    padding: 8px 14px;
+  }
+
+  .social a {
+    font-size: 2.5em;
+    padding: 1.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .landing-text h1 {
+    font-size: 200%;
+  }
+
+  .carousel-caption {
+    top: 40%;
+  }
+
+  .carousel-caption h1 {
+    font-size: 250%;
+  }
+
+  .carousel-caption h3 {
+    font-size: 110%;
+  }
+
+  .carousel-caption .btn {
+    font-size: 90%;
+    padding: 4px 8px;
+  }
+
+  .social a {
+    font-size: 2em;
+    padding: .7rem;
+  }
+}

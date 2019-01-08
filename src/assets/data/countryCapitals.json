@@ -1,0 +1,46 @@
+[
+  {
+    "country": "Беларусь",
+    "capital": "минск"
+  },
+  {
+    "country": "Россия",
+    "capital": "москва"
+  },
+  {
+    "country": "Украина",
+    "capital": "киев"
+  },
+  {
+    "country": "Германия",
+    "capital": "берлин"
+  },
+  {
+    "country": "Италия",
+    "capital": "рим"
+  },
+  {
+    "country": "Испания",
+    "capital": "мадрид"
+  },
+  {
+    "country": "США",
+    "capital": "вашингтон"
+  },
+  {
+    "country": "Франция",
+    "capital": "париж"
+  },
+  {
+    "country": "Чехия",
+    "capital": "прага"
+  },
+  {
+    "country": "Англия",
+    "capital": "лондон"
+  },
+  {
+    "country": "Голландия",
+    "capital": "амстердам"
+  }
+]

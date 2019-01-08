@@ -1,0 +1,50 @@
+[
+  {
+    "month": "январь",
+    "season": "winter"
+  },
+  {
+    "month": "февраль",
+    "season": "winter"
+  },
+  {
+    "month": "март",
+    "season": "spring"
+  },
+  {
+    "month": "апрель",
+    "season": "spring"
+  },
+  {
+    "month": "май",
+    "season": "spring"
+  },
+  {
+    "month": "июнь",
+    "season": "summer"
+  },
+  {
+    "month": "июль",
+    "season": "summer"
+  },
+  {
+    "month": "август",
+    "season": "summer"
+  },
+  {
+    "month": "сентябрь",
+    "season": "autum"
+  },
+  {
+    "month": "октябрь",
+    "season": "autum"
+  },
+  {
+    "month": "ноябрь",
+    "season": "autum"
+  },
+  {
+    "month": "декабрь",
+    "season": "winter"
+  }
+]

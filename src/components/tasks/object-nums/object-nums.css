@@ -1,0 +1,36 @@
+#objectnumsImg {
+  width: 600px;
+  height: 400px;
+  border-right: 20px;
+  margin: 0 auto 40px;
+}
+
+.objectnums-balls {
+  background: url("../../../assets/images/tasks/object-nums/balls.jpg") no-repeat center;
+  background-size: contain;
+}
+
+.objectnums-boxes {
+  background: url("../../../assets/images/tasks/object-nums/boxes.png") no-repeat center;
+  background-size: contain;
+}
+
+.objectnums-diff {
+  background: url("../../../assets/images/tasks/object-nums/different.jpg") no-repeat center;
+  background-size: contain;
+}
+
+.objectnums-line {
+  background: url("../../../assets/images/tasks/object-nums/line.jpg") no-repeat center;
+  background-size: contain;
+}
+
+.objectnums-pencils {
+  background: url("../../../assets/images/tasks/object-nums/pencils.png") no-repeat center;
+  background-size: contain;
+}
+
+.objectnums-sea {
+  background: url("../../../assets/images/tasks/object-nums/sea.jpg") no-repeat center;
+  background-size: contain;
+}

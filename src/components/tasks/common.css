@@ -1,0 +1,55 @@
+.dndnums-title,
+.dndletters-title,
+.speaking-title,
+.listening-title,
+.objectnums-title,
+.seasons-title,
+.geometric-title,
+.geometric-list,
+.sequenceday-title,
+.sequenceday-list,
+.sequencenum-title,
+.translate-word,
+.missletter-title,
+.translate-title,
+.ccapital-title,
+.ccapital-list,
+.comarison-title,
+.comarison-expr,
+.math-title,
+.math-expr {
+  font-size: 50px;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+.dndnums-title,
+.dndletters-title,
+.speaking-title,
+.listening-title,
+.objectnums-title,
+.seasons-title,
+.geometric-title,
+.sequenceday-title,
+.sequencenum-title,
+.missletter-title,
+.translate-word,
+.translate-title,
+.ccapital-title,
+.comarison-title,
+.math-title {
+  margin: 50px 30px;
+}
+
+.comarison-expr, .math-expr {
+  color: wheat;
+}
+
+#speakingAnswer,
+#listeningAnswer,
+#objectnumsAnswer,
+#comarisonAnswer,
+#mathAnswer,
+#translateAnswer {
+  font-size: 40px;
+  width: 30%;
+}

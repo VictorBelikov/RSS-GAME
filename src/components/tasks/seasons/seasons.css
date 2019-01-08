@@ -1,0 +1,34 @@
+.seasons-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.seasons-list li {
+  cursor: pointer;
+  width: 250px;
+  height: 215px;
+  display: inline-block;
+  margin: 40px;
+  transition: transform .5s;
+  color: transparent;
+}
+
+.seasons-list li:hover {
+  transform: scale(1.05);
+}
+
+.key-1 {
+  background: url("../../../assets/images/tasks/seasons/winter.png");
+}
+
+.key-2 {
+  background: url("../../../assets/images/tasks/seasons/spring.png");
+}
+
+.key-3 {
+  background: url("../../../assets/images/tasks/seasons/summer.png");
+}
+
+.key-4 {
+  background: url("../../../assets/images/tasks/seasons/autumn.png");
+}

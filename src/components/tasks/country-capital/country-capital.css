@@ -1,0 +1,28 @@
+.geometric-list,
+.sequenceday-list,
+.ccapital-list {
+  list-style-type: none;
+  text-transform: capitalize;
+  width: 30%;
+  min-width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 0;
+}
+
+.geometric-list li,
+.ccapital-list li,
+.sequenceday-list li {
+  cursor: pointer;
+  transition: transform .5s;
+  background: wheat;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 60px;
+}
+
+.geometric-list li:hover,
+.ccapital-list li:hover,
+.sequenceday-list li:hover {
+  transform: scale(1.05);
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "balls",
+    "objects": "14"
+  },
+  {
+    "name": "boxes",
+    "objects": "7"
+  },
+  {
+    "name": "diff",
+    "objects": "25"
+  },
+  {
+    "name": "line",
+    "objects": "10"
+  },
+  {
+    "name": "pencils",
+    "objects": "3"
+  },
+  {
+    "name": "sea",
+    "objects": "13"
+  }
+]

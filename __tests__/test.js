@@ -1,0 +1,26 @@
+// stub code
+const colorConfig = { 1: 'red', 2: 'black' };
+const items = [
+  { id: 1, color: 1 },
+  { id: 2, color: 2 },
+  { id: 3, color: 3 },
+];
+
+function ourCompileFunction(elems, config) {
+  return elems.filter(({ color }) => config[color] === 'red').map(({ id }) => id);
+}
+
+describe('Very fast start to run the program', () => {
+  it('insert some data into the DOM', () => {
+    // Arrange
+    document.body.innerHTML = '<div><span id="username">Test1</span><button id="testbutton" /></div>';
+    // Assert
+    const buttonEl = document.getElementById('testbutton');
+    expect(buttonEl).not.toBe(null);
+  });
+
+  it('ourCompileFunction', () => {
+    const targetIds = ourCompileFunction(items, colorConfig);
+    expect(targetIds).toEqual([1]);
+  });
+});

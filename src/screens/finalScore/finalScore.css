@@ -1,0 +1,117 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.scoreboard-bg {
+  background: url("../../assets/images/knight-scoreboard.jpg") repeat-y;
+  width: 100%;
+  min-height: 100vh;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  display: none;
+  position: fixed;
+}
+
+.display-off {
+  display: none;
+}
+
+.showScoreboard {
+  display: block;
+  animation-name: bounceInDown;
+}
+
+.hideScoreboard {
+  animation-name: bounceOutUp;
+}
+
+table.scoreboard-table {
+  text-align: center;
+  box-shadow: 1px 1px 20px 1px rgba(200, 200, 200, 0.75);
+}
+
+table,
+.scoreboard-table tr,
+.scoreboard-table th,
+.scoreboard-table td {
+  padding: 20px;
+  color: #fff;
+  border: 1px solid #080808;
+  border-collapse: collapse;
+  font-size: 18px;
+  background: linear-gradient(top, rgba(60, 60, 60, 0.4) 0%, rgba(34, 34, 34, 0.4) 100%);
+  background: -webkit-linear-gradient(top, rgba(60, 60, 60, 0.4) 0%, rgba(34, 34, 34, 0.4) 100%);
+  transition: background .5s;
+}
+
+.scoreboard-table thead th {
+  border: none;
+}
+
+thead {
+  background: linear-gradient(top, rgba(50, 50, 50, 0.5) 0%, rgba(24, 24, 24, 0.5) 100%);
+  background: -webkit-linear-gradient(top, rgba(50, 50, 50, 0.5) 0%, rgba(24, 24, 24, 0.5) 100%);
+}
+
+tr:not(.tr-head):hover {
+  background: rgba(255, 165, 0, 0.7);
+  cursor: pointer;
+}
+
+.my-container {
+  width: 50%;
+}
+
+.btn-newgame {
+  margin: 30px 0;
+  padding: 10px 60px;
+  text-shadow: 1px 1px 10px #000000;
+}
+
+
+@keyframes bounceInDown {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceOutUp {
+  20% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+}

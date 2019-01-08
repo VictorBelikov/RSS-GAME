@@ -1,0 +1,144 @@
+.geometric-figure {
+  margin: 0 auto 55px;
+  box-shadow: 0 0 5px 2px rgba(255, 255, 255, 0.7);
+  background: red;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+}
+
+.rectangle {
+  width: 250px;
+  height: 150px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%
+}
+
+.oval {
+  width: 250px;
+  height: 150px;
+  border-radius: 125px / 75px;
+}
+
+.triangle {
+  background: transparent;
+  box-shadow: none;
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 100px solid transparent;
+  border-bottom: 150px solid red;
+}
+
+.trapezoid {
+  background: transparent;
+  box-shadow: none;
+  border-bottom: 120px solid red;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  height: 0;
+  width: 250px;
+}
+
+.parallelogram {
+  width: 220px;
+  height: 140px;
+  transform: skew(20deg);
+  background: red;
+}
+
+.pentagon {
+  transform: scale(1.4);
+  background: transparent;
+  box-shadow: none;
+  position: relative;
+  width: 54px;
+  box-sizing: content-box;
+  border-width: 50px 18px 0;
+  border-style: solid;
+  border-color: red transparent;
+}
+
+.pentagon:before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -85px;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent red;
+}
+
+.hexagon {
+  transform: scale(1.4);
+  box-shadow: none;
+  width: 100px;
+  height: 55px;
+  background: red;
+  position: relative;
+}
+
+.hexagon:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 25px solid red;
+}
+
+.hexagon:after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 25px solid red;
+}
+
+.octagon {
+  transform: scale(1.4);
+  box-shadow: none;
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+}
+
+.octagon:before {
+  content: "";
+  width: 100px;
+  height: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-bottom: 29px solid red;
+  border-left: 29px solid #000;
+  border-right: 29px solid #000;
+}
+
+.octagon:after {
+  content: "";
+  width: 100px;
+  height: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-top: 29px solid red;
+  border-left: 29px solid #000;
+  border-right: 29px solid #000;
+}

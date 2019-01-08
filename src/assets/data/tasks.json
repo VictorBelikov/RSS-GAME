@@ -1,0 +1,19 @@
+{
+  "types": [
+    "math",
+    "comparison",
+    "translate",
+    "country-capital",
+    "missing-letter",
+    "sequence-num",
+    "sequence-day",
+    "geometric-figure",
+    "geometric-vert",
+    "seasons",
+    "object-nums",
+    "listening",
+    "speaking",
+    "dnd-nums",
+    "dnd-letters"
+  ]
+}

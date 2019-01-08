@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "airbnb-base"
+  ],
+  "rules": {
+    "no-param-reassign": "off",
+    "func-names": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jquery": true,
+    "jest": true
+  }
+}
