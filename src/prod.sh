@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 echo "=== Building CLIENT part"
 npm run build
 echo "CLIENT part was built successfuly"

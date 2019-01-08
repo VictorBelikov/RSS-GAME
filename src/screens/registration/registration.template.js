@@ -10,7 +10,7 @@ export default `
         </div>
         <div class="row align-items-center">
           <div class="col-6">
-            <a href="index.html" class="btn btn-block btn-secondary">На стартовую</a>
+            <a href="index" class="btn btn-block btn-secondary">На стартовую</a>
           </div>
           <div class="col-6">
             <button id="playButton" class="btn btn-block btn-danger" type="submit">Играть</button>
